@@ -45,13 +45,13 @@ REGISTER FORM:
 ```
 
 **Thành phần chính:**
+
 - Header với logo/tên ứng dụng
 - Form đăng nhập: Email, Password, nút Đăng nhập
 - Link chuyển sang Đăng ký và Quên mật khẩu
 - Form đăng ký: Tên, Email, SĐT, Password, Nhập lại, Role
 - Validation messages khi nhập sai
 - Loading state khi submit form
-
 
 ---
 
@@ -92,6 +92,7 @@ REGISTER FORM:
 ```
 
 **Thành phần chính:**
+
 - Top Navigation: Logo, Title, User Info, Logout
 - Sidebar: Menu chính (Dashboard, Sản phẩm, Danh mục, NCC, Giao dịch, User, Cài đặt)
 - Search/Filter Bar: Tìm kiếm sản phẩm, bộ lọc theo danh mục
@@ -99,7 +100,6 @@ REGISTER FORM:
 - Action Buttons: Edit, Delete, View chi tiết cho mỗi hàng
 - Add New Button: Button thêm sản phẩm mới
 - Pagination: Phân trang danh sách
-
 
 ---
 
@@ -168,6 +168,7 @@ REGISTER FORM:
 ```
 
 **Thành phần chính:**
+
 - Header breadcrumb: "Sản phẩm > Thêm Mới" với nút quay lại
 - Form Section 1: Thông tin chung
   - Tên sản phẩm (text input)
@@ -194,6 +195,7 @@ REGISTER FORM:
 ## Component Layout Notes
 
 ### Color Scheme (Khuyến nghị)
+
 - Primary Color: #2563eb (Blue) - Buttons, Links
 - Secondary Color: #10b981 (Green) - Success, Add button
 - Danger Color: #ef4444 (Red) - Delete button
@@ -201,16 +203,19 @@ REGISTER FORM:
 - Text: #1f2937 (Dark Gray)
 
 ### Responsive Design
+
 - Desktop: Full layout với sidebar
 - Tablet: Sidebar có thể collapse
 - Mobile: Hamburger menu, stack layout vertically
 
 ### Validation & Error Handling
+
 - Red border + error message dưới input field
 - Toast/Notification cho success/error messages
 - Loading spinner khi submit
 - Disabled button khi validate fail
 
 ### User Permissions
+
 - ADMIN: Xem tất cả, CRUD đầy đủ
 - USER: Xem danh sách, cập nhật profile riêng
